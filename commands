@@ -1,0 +1,1 @@
+export MONGODB_URL="mongodb+srv://selfservicedbuser:C1IPFXIACEqTQDIW@cluster0.amj8hrc.mongodb.net/test"

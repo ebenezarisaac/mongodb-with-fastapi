@@ -1,0 +1,12 @@
+{
+  _id: "$name",
+  total_dev_deployment_count: {
+    $sum: "$dev_deployment_count"
+  },
+  total_int_deployment_count: {
+    $sum: "$int_deployment_count"
+  },
+  total_prod_deployment_count: {
+    $sum: "$prod_deployment_count"
+  }
+}
